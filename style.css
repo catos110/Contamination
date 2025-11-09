@@ -1,0 +1,31 @@
+@keyframes color-change {
+    0% {
+      color: rgb(45, 143, 78);
+    }
+  
+    50% {
+      color: rgb(28, 95, 51);
+    }
+  
+    100% {
+      color: rgb(45, 143, 78);
+    }
+}
+body {
+    font-family: 'Raleway', sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: rgb(21, 75, 40); /* El color del fondo de la página web */
+    color: rgb(255, 255, 255); /* El color del texto*/ 
+}
+h1 {
+    color: rgb(45, 143, 78); /* El color de la cabecera */
+    animation: color-change 3s infinite;
+    font-size: 40px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'Raleway', sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    }
+
+h2 {
+    color: rgb(123, 228, 123); /* El color de la cabecera */
+    font-size: 30px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'Raleway', sans-serif; /* La familia tipográfica utilizada en la cabecera */
+}

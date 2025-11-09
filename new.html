@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="static/new.css">
+</head>
+<body>
+    <div class="tarjeta">
+        <h1>Calculadora</h1>
+        <div class="contenedor-valores">
+            <div class="valor">
+                <p class="etiqueta">Número 1:</p>
+                <p class="numero1">{{n1}}</p>
+            </div>
+            <div class="valor">
+                <p class="etiqueta">Número 2:</p>
+                <p class="numero2">{{n2}}</p>
+            </div>
+            <div class="valor">
+                <p class="etiqueta">Resultado:</p>
+                <p class="numero">{{n3}}</p>
+            </div>
+        </div>
+        <span>¿Quieres otra suma?</span>
+        <a href="{{ url_for('form') }}" class="main__link">Sumar</a>
+    </div>
+</body>
+</html>
